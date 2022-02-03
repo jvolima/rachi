@@ -1,0 +1,45 @@
+.containerDownloadApp {
+  width: 100%;
+  height: 475px;
+  background: var(--white-400);
+}
+
+.contentDownloadApp {
+  max-width: 1120px;
+  margin: 0 auto;
+
+  
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    h2 {
+      margin-top: 7.3rem;
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 2.5rem;
+      color: var(--gray-200);
+    }
+
+    p {
+      width: 27.75rem;
+      margin-top: 1.5rem;
+      font-family: "Inter", sans-serif;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: var(--gray);
+    }
+
+    img {
+      margin-top: 2.25rem;
+
+      & + img {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}
+
+.boyUsingRachi {
+  margin-top: 3.375rem;
+}
