@@ -1,0 +1,105 @@
+.containerHeader {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 0.4rem;
+  height: 4rem;
+  background: var(--white);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+
+    h2 {
+      margin-left: 1.25rem;
+      font-size: 1.5rem;
+      line-height: 1.875rem;
+      font-weight: 600;
+    }
+
+    img {
+      &:first-child {
+        margin-top: 0.2rem;
+        margin-right: -0.4rem;
+        height: 12px;
+        left: 135px;
+        top: 26px;
+      }
+
+      &:last-child {
+        left: 141px;
+        top: 32px;
+      }
+    }
+  }
+
+  nav {
+    a {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      color: var(--gray);
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+      position: relative;
+      padding: 0.3rem 0;
+
+      & + a {
+        margin-left: 4rem;
+      }
+    }
+
+    a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0.1em;
+      background: var(--blue);
+      opacity: 0;
+      transition: opacity 300ms, transform 300ms;
+    }
+
+    a:hover::after,
+    a:focus::after {
+      opacity: 1;
+      transform: translate3d(0, 0.2em, 0);
+    }
+
+    a::after {
+      opacity: 1;
+      transform: scale(0);
+      transform-origin: center;
+    }
+
+    a:hover::after,
+    a:focus::after{
+      transform: scale(1);
+    }
+  }
+
+  @media (max-width: 600px) {
+    nav {
+      display: none
+    }
+
+    .menuToggle {
+      display: block;
+      width: 40px;
+      height: 30px;
+      right: 12px;
+      top: 2px;
+      margin-bottom: 1rem;
+
+      .one, .two, .three, .four {
+        background: var(--gray-200);
+        height: 4px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+      }
+    }   
+  }
+}
