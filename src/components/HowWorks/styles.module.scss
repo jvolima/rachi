@@ -1,0 +1,44 @@
+.containerHowWorks {
+  max-width: 1120px;
+  height: 475px;
+  margin: 0 auto;
+
+  h2 {
+    margin-top: 3.5rem;
+    text-align: center; 
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: var(--gray-200);
+  }
+}
+
+.contentHowWorks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px ,1fr));
+
+  div {
+    margin-top: 5.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h3 {
+      margin-top: 2.5rem;
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+      color: var(--gray-200);
+    }
+
+    p {
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 1rem;
+      font-family: "Inter", sans-serif;
+      line-height: 1.6rem;
+      color: var(--gray);
+    }
+  }
+}
