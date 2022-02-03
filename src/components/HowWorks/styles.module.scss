@@ -11,6 +11,14 @@
     line-height: 3rem;
     color: var(--gray-200);
   }
+
+  @media (max-width: 860px) {
+    height: 560px;
+  }
+
+  @media (max-width: 580px) {
+    height: 800px;
+  }
 }
 
 .contentHowWorks {

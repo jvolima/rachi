@@ -2,17 +2,21 @@
   width: 100%;
   height: 475px;
   background: var(--white-400);
+
+  @media (max-width: 840px) {
+    height: 800px;
+  }
 }
 
 .contentDownloadApp {
   max-width: 1120px;
   margin: 0 auto;
-
+  padding: 0 0.4rem;
   
   display: flex;
   justify-content: space-between;
 
-  div {
+  .infos {
     h2 {
       margin-top: 7.3rem;
       font-size: 2rem;
@@ -22,24 +26,89 @@
     }
 
     p {
-      width: 27.75rem;
+      max-width: 27.75rem;
       margin-top: 1.5rem;
       font-family: "Inter", sans-serif;
       font-size: 1rem;
       line-height: 1.5rem;
       color: var(--gray);
     }
+  }
+
+  @media (max-width: 840px) {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .infos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h2 {
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
 
     img {
-      margin-top: 2.25rem;
+      order: -1;
+    }
+  }
 
-      & + img {
-        margin-left: 1.5rem;
+  @media (max-width: 400px) {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .infos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .botoes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+          margin-left: 0;
+        }
       }
     }
   }
 }
 
+.botoes {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-top: 2.25rem;
+
+    & + img {
+      margin-left: 1.5rem;
+    }
+  }
+}
+
 .boyUsingRachi {
+  width: 25rem;
+  height: 25rem;
   margin-top: 3.375rem;
 }

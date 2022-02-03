@@ -8,13 +8,15 @@ export function DownloadApp() {
   return (
     <section className={styles.containerDownloadApp}>
       <div className={styles.contentDownloadApp}>
-        <div>
+        <div className={styles.infos}>
           <h2>Baixe nosso app para desfrutar mais!</h2>
           <p>
             Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.
           </p>
-          <img src={playStoreSvg} alt="PlayStore" />
-          <img src={appStoreSvg} alt="AppStore" />
+          <div className={styles.botoes}>
+            <img src={playStoreSvg} alt="PlayStore" />
+            <img src={appStoreSvg} alt="AppStore" />
+          </div>
         </div>
         <img className={styles.boyUsingRachi} src={boyUsingRachiSvg} alt="Boy using Rachi" />
       </div>
