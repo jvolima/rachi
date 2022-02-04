@@ -1,0 +1,85 @@
+.containerContact {
+  height: 382px;
+  background: url(../../assets/form.png);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-top: 3rem;
+    color: var(--white);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  p {
+    max-width: 528px;
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    font-family: "Inter", sans-serif;
+    color: var(--gray-light);
+    line-height: 1.5rem;
+    text-align: center
+  }
+
+  .containerForm {
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+
+    button {
+      margin-left: 2.5rem;
+      width: 7.375rem;
+      height: 2.375rem;
+      border-radius: 2.375rem;
+      border: 0;
+      background: var(--blue);
+
+      font-family: "Inter", sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+      color: var(--white);
+      font-weight: 500;
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+}
+
+.containerInput {
+  input {
+    border: 0;
+    background: transparent;  
+
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: var(--white);
+
+    &:focus {
+      outline: 0
+    }
+  }
+
+  div {
+    margin-top: 3.6rem;
+    margin-left: 3rem;
+    position: absolute;
+    width: 16rem;
+    height: 0px;
+    left: 510px;
+    top: 2808px;
+    background: var(--white);
+
+    border: 1px solid #FFFFFF;
+  }
+}
+

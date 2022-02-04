@@ -1,3 +1,4 @@
+import { Contact } from "./components/Contact"
 import { DownloadApp } from "./components/DownloadApp"
 import { Header } from "./components/Header"
 import { HowWorks } from "./components/HowWorks"
@@ -13,6 +14,7 @@ function App() {
       <HowWorks />
       <DownloadApp />
       <Plans />
+      <Contact />
     </>
   )
 }
