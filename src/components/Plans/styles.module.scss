@@ -1,0 +1,45 @@
+.containerPlans {
+  max-width: 1120px;
+  height: 880px;
+  margin: 0 auto;
+  padding: 0 0.4rem;
+
+  h2 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: var(--gray-200);
+  }
+
+  p {
+    max-width: 570px; 
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    color: var(--gray);
+  }
+}
+
+.planos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  margin-top: 6rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  @media (max-width: 650px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+  }
+}

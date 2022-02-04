@@ -1,0 +1,177 @@
+.containerCardPreferido {
+  max-width: 23.125rem;
+  height: 29.4rem;
+  background: var(--gray-200);
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h3 {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: var(--white);
+    text-align: center;
+  }
+
+  .preferido {
+    margin-top: 1rem;
+    width: 10.25rem;
+    height: 1.7rem;
+    border-radius: 1.7rem;
+    background: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      margin-top: -0.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 1rem;
+      color: var(--white);
+    }
+  }
+
+  h4 {
+    font-family: "Roboto", sans-serif;
+    margin-top: 0.9rem;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3.625rem;
+    color: var(--white);
+
+    span:first-child {
+      left: 647px;
+      top: 2055px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      color: var(--white);
+    }
+
+    span:last-child {
+      left: 732px;
+      top: 2070.67px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 1.625rem;
+      line-height: 1.875rem;
+      color: var(--white);
+    }
+  }
+
+  .descricao {
+    font-family: 'Roboto', sans-serif;
+    margin: 3rem 2rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: var(--gray-light);
+  }
+
+  button {
+    width: 14.375rem;
+    height: 2.625rem;
+    border-radius: 2.625rem;
+    border: 0;
+    background: var(--blue);
+    box-shadow: 1px 3px 10px rgba(17, 37, 56, 0.5);
+
+    color: var(--white);
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+.containerCard {
+  max-width: 23.125rem;
+  height: 29.4rem;
+  background: var(--white-400);
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: var(--gray-200);
+    text-align: center;
+  }
+
+  h4 {
+    font-family: "Roboto", sans-serif;
+    margin-top: 2.125rem;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3.625rem;
+    color: var(--gray-200);
+
+    span:first-child {
+      left: 647px;
+      top: 2055px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      color: var(--gray-200);
+    }
+
+    span:last-child {
+      left: 732px;
+      top: 2070.67px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 1.625rem;
+      line-height: 1.875rem;
+      color: var(--gray-200);
+    }
+  }
+
+  .descricao {
+    font-family: 'Roboto', sans-serif;
+    margin: 3rem 2rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: var(--gray);
+  }
+
+  button {
+    width: 14.375rem;
+    height: 2.625rem;
+    border-radius: 2.625rem;
+    border: 0;
+    background: var(--blue);
+    box-shadow: 1px 3px 10px rgba(17, 37, 56, 0.5);
+
+    color: var(--white);
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
