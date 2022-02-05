@@ -1,0 +1,13 @@
+.containerFooter {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5rem; 
+    color: var(--gray-200);
+  }
+}
