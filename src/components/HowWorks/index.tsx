@@ -6,7 +6,7 @@ import styles from "./styles.module.scss"
 
 export function HowWorks() {
   return (
-    <section className={styles.containerHowWorks}>
+    <section id="howWorks" className={styles.containerHowWorks}>
       <h2>Como funciona</h2>
       <div className={styles.contentHowWorks}>
         <div>

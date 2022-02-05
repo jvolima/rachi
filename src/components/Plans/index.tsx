@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 export function Plans() {
   return (
-    <section className={styles.containerPlans}>
+    <section id="plans" className={styles.containerPlans}>
       <div className={styles.planos}>
         <h2>Nossos Planos</h2>
         <p>

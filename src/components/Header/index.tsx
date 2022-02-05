@@ -18,10 +18,10 @@ export function Header() {
         <div className={styles.four}></div>
       </div>
       <nav> 
-        <a href="#">Funcionalidades</a>
-        <a href="#">App</a>
-        <a href="#">Planos</a>
-        <a href="#">Contato</a>
+        <a href="./#howWorks">Funcionalidades</a>
+        <a href="./#downloadApp">App</a>
+        <a href="./#plans">Planos</a>
+        <a href="./#contact">Contato</a>
       </nav>
     </header>
   )

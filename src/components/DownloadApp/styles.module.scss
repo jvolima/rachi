@@ -4,15 +4,8 @@
   background: var(--white-400);
 
   @media (max-width: 840px) {
-    height: 800px;
-  }
-
-  @media (max-width: 320px) {
-    height: 860px;
-  }
-
-  @media (max-width: 266px) {
-    height: 880px;
+    height: auto;
+    padding-bottom: 1rem;
   }
 }
 
@@ -94,7 +87,7 @@
         align-items: center;
         flex-direction: column;
 
-        img {
+        button {
           margin-left: 0;
         }
       }
@@ -106,10 +99,12 @@
   display: flex;
   align-items: center;
 
-  img {
+  button {
+    border: 0;
+    background: transparent;
     margin-top: 2.25rem;
 
-    & + img {
+    & + button {
       margin-left: 1.5rem;
     }
   }
