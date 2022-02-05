@@ -21,6 +21,11 @@
     font-family: "Roboto", sans-serif;
     color: var(--gray);
   }
+
+  @media (max-width: 990px) {
+    margin-bottom: 2rem;
+    height: auto;
+  }
 }
 
 .planos {

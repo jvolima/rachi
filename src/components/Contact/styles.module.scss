@@ -1,6 +1,7 @@
 .containerContact {
   height: 382px;
   background: url(../../assets/form.png);
+  background-size: cover;
 
   display: flex;
   flex-direction: column;
@@ -51,6 +52,21 @@
       }
     }
   }
+
+  @media (max-width: 550px) {
+    background: var(--gray-200)
+  }
+
+  @media (max-width: 390px) {
+    .containerForm {
+      flex-direction: column;
+
+      button {
+        margin-left: 0;
+        margin-top: 1.5rem
+      }
+    }
+  }
 }
 
 .containerInput {
@@ -65,14 +81,12 @@
     color: var(--white);
 
     &:focus {
-      outline: 0
+      outline: none
     }
   }
 
   div {
-    margin-top: 3.6rem;
-    margin-left: 3rem;
-    position: absolute;
+    display: flex;
     width: 16rem;
     height: 0px;
     left: 510px;
