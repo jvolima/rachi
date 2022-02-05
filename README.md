@@ -24,7 +24,7 @@
 Email: jvolima2004@gmail.com
 
 ## Aplicação no desktop:
-[!Imagem da aplicação no desktop](./desktop.png)
+![Imagem da aplicação no desktop](./desktop.png)
 
 ## Aplicação no mobile:
-[!Imagem da aplicação no mobile](./mobile.png)
+![Imagem da aplicação no mobile](./mobile.png)
